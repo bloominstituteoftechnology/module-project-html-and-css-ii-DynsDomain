@@ -113,15 +113,23 @@ p, h1, h2, h3, h4, h5, h6 {
     /* 👉 Task 10- Research how to remove all the default styling of button elements.
     Target the button elements inside the element with id headerBottom.
     Remove all their styling, give them a bit of margin to the right, and a cursor of pointer. */
-
+        #headerBottom button {
+          padding: 0;
+          border: none;
+          background: none;
+          margin-right 1rem;
+        }
     /* 👉 Task 11- Target the button element inside the id headerBottom that has a class of active
     Make the font weight be bolder, and add a bottom border of 2 pixels solid color (you choose the color).
     Add the class name to the "All mail" button. */
-
+#headerBottom button.active {
+  border-bottom: 2px solid #176bad;
+  font-weight:bold;
+}
     /* 👉 Task 12- Target all divs directly nested inside elements with a class of email,
     and make them display as inline-block elements.
     This will make each email render all its details in the same line*/
-
+.email div {}
     /* 👉 Task 13- Target the elements with a class of email.
     Give them some padding, bigger padding to the left, and a bottom border of very light grey. */
 
